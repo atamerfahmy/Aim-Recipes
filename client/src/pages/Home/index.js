@@ -19,9 +19,9 @@ const Home = () => {
      }, [])
 
      return (
-          <Grid container mb={10} mt={5} ml={5}>
+          <Grid container mb={10} mt={0} spacing={5}>
                {
-                    recipes.map((recipe, i) => <Grid key={i} item mb={5} xs={12} sm={12} md={6} lg={4} xl={4}>
+                    recipes.map((recipe, i) => <Grid key={i} item  style={{ margin: "auto" }}>
                          <MultiActionAreaCard recipe={recipe} refresh={init}/>
                     </Grid>
                     )
