@@ -1,5 +1,4 @@
 
-*.html
 *.pyc
 */node_modules
 *.env
