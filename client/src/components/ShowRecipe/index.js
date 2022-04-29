@@ -15,12 +15,12 @@ export default function ShowRecipe({ photo, title, ingredients, recipe }) {
                     <img src={photo?.url} alt="Italian Trulli" style={{ width: '100%', height: 'auto' }} />
                </div>
                <div>
-                    <Typography variant="h1" component="div" color="#333333">
+                    <Typography variant="h2" component="div" color="#333333">
                          {title}
                     </Typography>
                </div>
                <div>
-                    <Typography mt={5} gutterBottom variant="h3" component="div" color="#333333">
+                    <Typography mt={5} gutterBottom variant="h4" component="div" color="#333333">
                          Ingredients:
                     </Typography>
                     <Typography ml={5} gutterBottom variant="h5" component="div" color="#919191">
@@ -29,7 +29,7 @@ export default function ShowRecipe({ photo, title, ingredients, recipe }) {
                </div>
 
                <div>
-                    <Typography mt={5} gutterBottom variant="h3" component="div" color="#333333">
+                    <Typography mt={5} gutterBottom variant="h4" component="div" color="#333333">
                          Recipe:
                     </Typography>
                     <Typography ml={5} gutterBottom variant="h5" component="div" color="#919191">
