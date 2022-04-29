@@ -8,7 +8,7 @@ import IconButton from '@mui/material/IconButton';
 // import MenuIcon from '@mui/icons-material/Menu';
 
 export default function ShowRecipe({ photo, title, ingredients, recipe }) {
-     console.log(photo)
+
      return (
           <Box mt={5}>
                <div>

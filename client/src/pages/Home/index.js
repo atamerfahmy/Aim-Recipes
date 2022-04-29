@@ -10,7 +10,6 @@ const Home = () => {
 
      const init = async () => {
           let recipes = await getRequest("/getAll");
-          console.log(recipes.data?.data)
           setRecipes(recipes.data?.data);
      }
 

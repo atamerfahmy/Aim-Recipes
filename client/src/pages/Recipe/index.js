@@ -25,7 +25,6 @@ const Recipe = () => {
 
      const init = async () => {
           let recipe = await getRequest(`/getRecipe/${id}`);
-          console.log(recipe.data?.data)
           setRecipeData(recipe.data?.data);
           setData(recipe.data?.data);
      }
@@ -78,7 +77,6 @@ const Recipe = () => {
                     navigate("/");
                }
           } catch (error) {
-               console.log(error.message)
                alert("Something wrong happened.");
           }
      }

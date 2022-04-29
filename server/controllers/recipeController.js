@@ -10,16 +10,6 @@ var imagekit = new ImageKit({
      urlEndpoint
 });
 
-// exports.getAll = async (req, res) => {
-
-//      try {
-
-//      } catch (error) {
-          // res.status(400);
-          // res.send({ error: error.message.toString() });
-//      }
-// }
-
 exports.create = async (req, res) => {
      try {
           let files = req.files;

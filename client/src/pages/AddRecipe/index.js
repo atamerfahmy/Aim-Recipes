@@ -34,7 +34,6 @@ const AddRecipe = () => {
 
                try {
                     let res = await postRequest('/createRecipe', formData);
-                    console.log(res.data)
                     setTitle('');
                     setIngredients('');
                     setRecipe('');
